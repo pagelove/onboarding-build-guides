@@ -1,0 +1,28 @@
+{
+  "name": "prism-breaker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test ./tests",
+    "serve": "bun tools/serve.mjs",
+    "check": "bun tools/build-pwa.mjs --check",
+    "check:repository": "bun tools/repository-check.mjs",
+    "check:requirements": "bun tools/requirements-check.mjs",
+    "release:check": "bun tools/release-gate.mjs",
+    "build": "bun tools/build-worlds.mjs && bun tools/build-engagement.mjs && bun tools/build-bundled-worlds.mjs && bun tools/build-world-policy.mjs && bun tools/build-data.mjs && bun tools/build-editor.mjs && bun tools/build-pwa.mjs"
+  },
+  "dependencies": {
+    "qrcode-generator": "2.0.4",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@tabler/icons": "^3.49.0",
+    "linkedom": "0.18.12",
+    "sharp": "0.35.5"
+  },
+  "packageManager": "bun@1.4.3",
+  "engines": {
+    "bun": ">=1.4.3"
+  }
+}

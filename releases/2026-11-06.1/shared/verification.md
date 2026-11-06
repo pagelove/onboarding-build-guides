@@ -1,0 +1,2 @@
+VERIFY AND HAND OFF
+Validate the app and documents before upload. Read uploaded files back, open https://{SITE_HOSTNAME}/, and check the important flows, persistence where applicable, keyboard/touch behavior and mobile layout. Finish by updating the visual tracker with the actual final status of all six stages; show incomplete or blocked stages honestly. Report the public link, files changed, completed checks and any remaining limitations. Do not claim features are working unless you verified them.

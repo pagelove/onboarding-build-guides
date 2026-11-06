@@ -1,0 +1,23 @@
+# Prism Breaker interface conventions
+
+- Never use up-right or northeast arrow icons or glyphs in the interface, including decorative action indicators and external links.
+- Never use colored accent borders or side rails on cards and boxes. Use neutral borders and world scene previews; show the selected world with a Current badge and subtle surface change.
+- Use clear action text, a Current badge for the active world, a grid icon for world navigation, and a trophy icon for leaderboard actions.
+- Label navigation back to the opening screen "Back to start screen"; explain checkpoint saving or ending the run in the pause description.
+- Omit device/browser storage qualifiers from personal-best and saved-preference interface copy.
+- Keep the external Pagelove attribution text-only and announce that it opens in a new tab through its accessible label.
+- Keep the arena full width. Show personal bests beside start controls and on results, journey progress in the Worlds chooser, and contextual advice beside Launch ball.
+- Keep cinematic text on a consistent dark backing, with bold white headings, story text of at least 15px on phones, and large gold score figures. Keep caption readability independent of the world's colors and the interface theme.
+- Do not add Pause Animation / Resume Animation buttons to cinematics or record endings. Keep the explicit continuation actions and final readable composition; keyboard pause shortcuts may remain. Wesley requested removal on October 15, 2026 (America/New_York).
+- Sticky Paddle uses the automatic return angle from the catch. Do not add a launch-angle selector or aiming guide to ordinary Sticky catches. Wesley requested removal on October 29, 2026 (America/New_York).
+
+## Pagelove authoring contract — support clarification, October 15, 2026
+
+Wesley relayed Pagelove support confirmation: WebDAV is only an authoring mechanism and intentionally bypasses all schema validation and triggers. Treat owner DAV as trusted authoring, not an application validation boundary; bypass is expected behavior, not a platform bug. ETag conditions/readback and client/build validation remain separate controls. Any server-authoritative application mutation requirement needs its own supported authenticated path. This clarification does not resolve public-policy propagation timing or unattended expiry. Provenance: support response supplied by Wesley; see the resolved DAV report in the Prism Breaker repository.
+
+## Approved project trust boundaries — October 15, 2026
+
+Wesley explicitly chose to retain owner DAV publishing only and the current casual leaderboard. Do not add an authenticated application-write grant or a separate verified-run board without a new user decision. Keep historical world-policy activation disabled. Routine game publication preserves score rules and records; changed native policies need a supported safe activation procedure. Immutable runtime packages are derived deployment representations; world documents remain the editing sources.
+
+## Document-first maintenance
+Read DOCUMENT-FIRST-REVIEW.md before changing domain information or persistence. Apply edition2.4 W1–W8/R01–R12 proportionately. Preserve semantic HTML/DOM authorship, stable identities and source records, or retain a concrete justified runtime exception. Every meaningful batch needs a plan/result with UTC, actor, affected files, rationale, hashes and actual verification in audit/CHANGELOG.md. Keep unverified provider/private/device checks explicit. Do not add external services or broaden approved game trust boundaries.

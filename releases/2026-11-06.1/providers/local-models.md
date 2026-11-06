@@ -1,0 +1,4 @@
+Local/open models — Ollama / LM Studio:
+1. A model server or ordinary chat window alone does not supply project tools. With Ollama already installed, its documented ollama launch flow lets me choose a supported coding integration and model: https://github.com/ollama/ollama/blob/main/docs/integrations/index.mdx . Use the intended project and verify the chosen agent's tools.
+2. For LM Studio, consult its current integrations guidance; approved MCP tools can supply capabilities, but enable only the specific trusted tools and folder scope needed. Official starting reference: https://lmstudio.ai/blog/lmstudio-v0.3.17 . Do not assume an old Program-tab position still matches my version, or add broad filesystem access automatically.
+Schematic — not a screenshot or clickable controls: [Local model] + [Supported agent / scoped tools] → [Project folder] → [Full prompt] → [Readiness].

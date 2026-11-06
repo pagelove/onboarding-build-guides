@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "release": "2026-11-06.1",
+  "item": "Fitness tracker",
+  "itemKey": "fitness-tracker",
+  "category": "Personal",
+  "personalize": true,
+  "base": "../",
+  "parameters": [
+    "SITE_HOSTNAME",
+    "PRIVATE_API_TOKEN"
+  ],
+  "repository": "https://github.com/pagelove/fitness-tracker-template",
+  "commit": "79288c6e67f2eafdf71470341b88308997e3f14a",
+  "subpath": "",
+  "required": [
+    {
+      "path": "START.md",
+      "sha256": "76803b4e0f6e432c5f3b640371c032b9f33196c0db394439e3fba6990307caa6",
+      "bytes": 2078
+    },
+    {
+      "path": "shared/readiness.md",
+      "sha256": "52adc4ad3049b6bf2baa94d4c46365f7214f52eb1fbcf6ee41b69d576fb91b81",
+      "bytes": 4389
+    },
+    {
+      "path": "shared/progress.md",
+      "sha256": "e51948fe54f4a04ac46687727f7e293760e1dc18ac88c2f517a3168f0a37c518",
+      "bytes": 4118
+    },
+    {
+      "path": "shared/documentation.md",
+      "sha256": "851a9b2f4a2f2c7177656ed259482d0d0acb87399ec46f37c1cd9c88a8fc35be",
+      "bytes": 1193
+    },
+    {
+      "path": "shared/document-first.md",
+      "sha256": "7cc825f19ba2eb9f5d1ae2c3295ee47358a651efc225118d0be83dfcb15fb9f3",
+      "bytes": 1777
+    },
+    {
+      "path": "reference/document-first-development-2.4.md",
+      "sha256": "322d0c1c1c016787edeb67702c62c69610f26916933d0f34ec3dd7b2468b26dc",
+      "bytes": 148012
+    },
+    {
+      "path": "shared/design.md",
+      "sha256": "90581d5021ec50505828840fa2d6ddeb1a7bb4e04c8d2041c7c83c0bf65692de",
+      "bytes": 1126
+    },
+    {
+      "path": "shared/deployment.md",
+      "sha256": "768645d619f18ab3d95edc0ece574a94de0d3eeb09b9cc6e986e319d44e8370c",
+      "bytes": 2069
+    },
+    {
+      "path": "shared/verification.md",
+      "sha256": "1a69ac8655d0619617a78de34c863f3e79255ad6293880d2373603ed1dc68dcc",
+      "bytes": 504
+    },
+    {
+      "path": "shared/handoff.md",
+      "sha256": "374a7c06cf71f79536e2f0e636c50f0c12fb1549a8c420c8c8e3458a98345152",
+      "bytes": 1255
+    },
+    {
+      "path": "apps/fitness-tracker.md",
+      "sha256": "59f2b584e893d214ef0af35fcca6bdada6441fbaa22adf455c7a16a0c890afdf",
+      "bytes": 3166
+    },
+    {
+      "path": "shared/personalization-on.md",
+      "sha256": "90e81570383989ee9cb9eb3dc3cb83c446ab494870776f9977fa26dbec234512",
+      "bytes": 3962
+    },
+    {
+      "path": "reference/apps/fitness-tracker/README.md",
+      "sha256": "307aa6819e283378ff8def89b1c4c2c149f135d2728378a3729fda56bd4a6e9c",
+      "bytes": 4848
+    },
+    {
+      "path": "reference/apps/fitness-tracker/AGENTS.md",
+      "sha256": "febde961c8698bc958c59ed60da069eb1cf18cb9a6f85018a3ecb31ca074111a",
+      "bytes": 552
+    },
+    {
+      "path": "reference/apps/fitness-tracker/DESIGN.md",
+      "sha256": "a4e2c59995b73cfa1c722415ce3bce55e446b9d544e5b81446092b0354f5290e",
+      "bytes": 1557
+    },
+    {
+      "path": "reference/apps/fitness-tracker/DOCUMENT-FIRST-REVIEW.md",
+      "sha256": "819025debe83895f3d2638b20ace6b4eab8805bc56c686fb0aa7e7dbddda7693",
+      "bytes": 3636
+    },
+    {
+      "path": "reference/apps/fitness-tracker/docs/deployment.md",
+      "sha256": "55d11d14b3adf2b40f4262535dd7327d7b2921d35e74099969ed6f79ac2c34c4",
+      "bytes": 4117
+    },
+    {
+      "path": "reference/apps/fitness-tracker/package.json",
+      "sha256": "d94b44889217a1b8ff3b8e64059403d3826b21fd1cde1eb27782737619e39fba",
+      "bytes": 760
+    }
+  ],
+  "setup": {
+    "router": {
+      "path": "shared/setup-router.md",
+      "sha256": "d21d8d82cbd4a23ba7a3c664f0df89fd2fc0dc38a61d364048e62d6cffcda80f",
+      "bytes": 4328
+    },
+    "providers": {
+      "claude": {
+        "path": "providers/claude.md",
+        "sha256": "a22ca50ba528192cbec36878a466f742e73163f2f68f55be70c09660fbab5a34",
+        "bytes": 992
+      },
+      "chatgpt-codex": {
+        "path": "providers/chatgpt-codex.md",
+        "sha256": "4aa211a90c07458e040c08339af27117d9ebc1d083b027fdb3ccffb7b5d91526",
+        "bytes": 1607
+      },
+      "gemini": {
+        "path": "providers/gemini.md",
+        "sha256": "7f1f7763c8012d440640a29e6a1f535e949c22e6f366aa68c2baef01cecb1641",
+        "bytes": 786
+      },
+      "microsoft-copilot": {
+        "path": "providers/microsoft-copilot.md",
+        "sha256": "f7b6b3a935498c35dea2cdf8643557670994edb60a05861d9e5c6b62b34bc529",
+        "bytes": 813
+      },
+      "github-copilot": {
+        "path": "providers/github-copilot.md",
+        "sha256": "ced407cc9c604c967855743a70100f5060ef9f0c84b2fd4a3a0513cb72b4011d",
+        "bytes": 649
+      },
+      "cursor": {
+        "path": "providers/cursor.md",
+        "sha256": "28396ff4eb8a3d1fc44e69a653544c9dddf432de97cb94695c6505eb9734dcbc",
+        "bytes": 545
+      },
+      "windsurf-devin": {
+        "path": "providers/windsurf-devin.md",
+        "sha256": "9e5b20cf20b3e084c7a1ff00eee0d7b2541cae2b2f19c826d83b93891d780fb2",
+        "bytes": 813
+      },
+      "grok": {
+        "path": "providers/grok.md",
+        "sha256": "caa5fa1f090c276c370e0fa5952d45c6a4808077c2b5ea43775b6de1dd3b2108",
+        "bytes": 637
+      },
+      "perplexity": {
+        "path": "providers/perplexity.md",
+        "sha256": "eb0f4e226b0f63d5e7ba0fcf5470e92ef30a207ed823992a8968cd9f563b4ed9",
+        "bytes": 703
+      },
+      "deepseek": {
+        "path": "providers/deepseek.md",
+        "sha256": "e9165d5334ad9a282752544fe101fb801294b5cab87927f6777021ce896452b3",
+        "bytes": 767
+      },
+      "qwen": {
+        "path": "providers/qwen.md",
+        "sha256": "b39903c1d5312e2ff55765e9e339bd052d52d34d33a2a1617a8ce9cd8d7eedd5",
+        "bytes": 594
+      },
+      "kimi": {
+        "path": "providers/kimi.md",
+        "sha256": "aef8bc92afb6ed8fcdf9242476d2df0053382a30b6b242b994132481ad823c3c",
+        "bytes": 613
+      },
+      "mistral": {
+        "path": "providers/mistral.md",
+        "sha256": "e02223007ce277d15357005be0062057af6b491c8e981f485ccfffe2d87b48ae",
+        "bytes": 640
+      },
+      "meta-llama": {
+        "path": "providers/meta-llama.md",
+        "sha256": "e50c6c7f1688548bbc38dc15a016c37c4ccfa6261eead35009f75a51c1b9f6e3",
+        "bytes": 686
+      },
+      "local-models": {
+        "path": "providers/local-models.md",
+        "sha256": "a9fe23adbb4d27d18d42b04407f6340f1c029bc41542fd67e1a61812594d5df0",
+        "bytes": 897
+      }
+    }
+  },
+  "bundle": {
+    "markdown": "bundles/fitness-tracker-on.md",
+    "zip": "bundles/fitness-tracker-on.zip"
+  },
+  "limitations": "Readiness is evidence-based; local or deployment checks do not establish protected app permissions, external integrations, real-device acceptance or another AI model’s compliance."
+}

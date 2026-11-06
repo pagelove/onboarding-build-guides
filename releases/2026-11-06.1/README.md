@@ -1,0 +1,3 @@
+# Pagelove build instructions — 2026-11-06.1
+
+This release is read with the short prompt copied from Slide4. The prompt supplies runtime site/credential fields; files here never do. Read START.md first. All relative file paths in a manifest resolve from its base, ../, to this release directory. Do not use another release if a file is missing. Plain Markdown and ZIP bundles include the same selected-item requirements plus offline setup routes. They contain no target site, private token or personal user content. Repository source code is not included. If code access is unavailable, use the setup/handoff instructions, never pretend to build.

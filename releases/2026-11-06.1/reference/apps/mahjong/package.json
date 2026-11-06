@@ -1,0 +1,27 @@
+{
+  "name": "@pagelove/mahjong-template",
+  "version": "1.9.1",
+  "type": "module",
+  "description": "A quiet mahjong solitaire game with 60 levels and a personal tile studio",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tools/check.mjs",
+    "build": "node tools/build.mjs",
+    "serve": "node tools/serve.mjs",
+    "author-levels": "node tools/author-levels.mjs",
+    "check": "node tools/check.mjs",
+    "gate": "node tools/gate.mjs",
+    "prepare": "node tools/prepare-template.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "verify": "node scripts/deploy.mjs --verify",
+    "test:deployment": "node --test tests/deployment.test.mjs"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.12"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "private": true
+}

@@ -1,0 +1,4 @@
+Windsurf / Devin Desktop:
+1. Verify the installed product/version against https://docs.windsurf.com/windsurf/cascade/cascade (currently redirects to Devin's legacy Cascade reference). An older installed Windsurf with Cascade offers Code versus Chat; use Code only if that control actually exists.
+2. Current Devin Desktop documentation says new conversations use Devin Local and Cascade is no longer offered. Use its current documented local-agent setup instead of telling me to select a removed agent; open the intended project, obey workspace trust restrictions, then rerun checks. Do not disable protections to force a pass.
+Schematic — not a screenshot or clickable controls: [Project folder] → [Installed agent selector] → [Current local coding agent / legacy Cascade Code if present] → [Readiness].

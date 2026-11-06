@@ -1,0 +1,217 @@
+Create Photo Album on my Pagelove site (Lifestyle).
+
+WHAT TO BUILD
+An accessible image gallery with albums, captions and a detail/lightbox view.
+Build a working, responsive result with useful empty/loading/error states and accessible controls. Keep the first version focused and editable.
+
+FIRST: SHOW AND RUN A REAL READINESS CHECK
+In your first response, show the readiness checklist below beside the initial build-progress tracker. Start every row as ○ Not tested, then perform the available checks and replace each status with actual evidence before starting implementation. Check capabilities in this session; an app name, model name, selected mode or promise of a tool is not evidence that the tool works. Never copy a pre-checked success example.
+
+READINESS CHECK
+| Capability | Result | Evidence / next action |
+| Read project files | ○ Not tested | Read an actual permitted project file, or a scratch file if the project is new. |
+| Create and edit files | ○ Not tested | Create a uniquely named scratch file inside the approved working folder, change a harmless marker and read it back. |
+| Run commands and required tools | ○ Not tested | Execute a harmless command and check the runtime/build tool documented by the selected repository. |
+| Read source and documentation | ○ Not tested | Actually open the required documentation and selected repository instructions. Blank has no source repository requirement. |
+| Open and inspect a preview | ○ Not tested | Exercise the supported browser/preview tool on a permitted page or a minimal local scratch preview when available. |
+| Connect to Pagelove for publishing | ○ Not tested | Verify the exact supplied DAV connection with an authenticated read-only request when real credentials are available. |
+
+Use ✅ Pass, ❌ Fail / unavailable, ○ Not tested / waiting, and — Not applicable, with a short plain-language reason and observed result in every row. Use both text and symbols so status does not depend on color. If a tool is absent, mark it unavailable and say no command was run; if permission is pending or a check cannot yet be exercised, leave it untested/waiting rather than inventing a failed or successful execution. Only use Pass after the actual operation returns the expected result. Briefly report the current product/mode/environment only when known from real context or my answer; otherwise say it is unknown.
+
+Keep probes small and reversible. Read back the edited scratch marker; remove only your own scratch file when finished. Never change existing user files to test editing. Run only the harmless documented runtime/version check needed for this item; do not install unrelated software. Documentation/repository access must produce actual content, not just a remembered URL. A browser or preview pass requires an actual successful open/inspection, not a claim that a screenshot was produced. If preview tools become available later, rerun that row before claiming browser checks passed.
+
+For Pagelove, validate the public/DAV hostname pair against the official documentation and the repository contract. If the hostname/token is a placeholder or DEMO_API_TOKEN_, show “○ Waiting for real connection details — local work can continue”; do not send a token to an example host. With a real privately supplied credential and supported tools, use a read-only DAV listing such as PROPFIND with Depth: 0 if documented. Send authentication only to the exact approved DAV host, without following an authenticated redirect to another host. Show only the status/result; never print credentials or private directory contents. Do not use PUT, DELETE, an upload, or an unrelated third-party service as a readiness probe. A successful authenticated read proves that read only; it does not prove upload permission, app write validation or private-app access. Classify credential rejection, network restrictions and missing tools separately rather than calling every failure the wrong mode.
+
+Summarize readiness as “Ready to build,” “Setup needed,” or “Ready to build; publishing needs attention,” explaining which capabilities the selected task requires. Proceed automatically when required capabilities pass. Continue independent local work if only publishing credentials/network or a later preview check is pending. Fix routine missing dependencies within existing permissions and rerun affected checks. If essential file/command capabilities are missing, show the failed rows and the visual setup directions below instead of claiming to build. Keep legitimate permissions and missing-information gates; never recommend bypassing safeguards to obtain a green checkmark.
+
+
+KEEP ME INFORMED — VISUAL, NON-BLOCKING BUILD PROGRESS
+In your first response, show the readiness checklist and a compact visual progress tracker for this build, then immediately begin the available safe checks and next authorized action. Keep me informed while you work; do not wait until the end to explain what happened. This tracker belongs in our AI conversation, not as a pretend build-status feature inside the finished app.
+
+Use an inline, read-only progress card or your native plan/task display if supported. Update the same display where possible. Otherwise use a short Markdown/text tracker with clear status symbols. Do not claim you created an interactive display, screenshot or preview unless it actually exists. Do not require me to click, expand, acknowledge, approve a stage or press Next to see progress or let development continue.
+
+Show these six stages, adapting the short descriptions to the selected item:
+1. Prepare — confirm tools, read the repository/documentation and inspect the target site safely.
+2. Plan & design — choose the structure, design and relevant personalization without changing the agreed scope.
+3. Build — implement the app and its real content/workflows.
+4. Test — check important flows, error states, saved data where applicable, keyboard access and mobile layouts.
+5. Publish — upload the intended files safely while preserving existing records and unrelated content.
+6. Verify live — check the actual Pagelove result and hand over the working link and any remaining limitations.
+
+Example of the compact fallback at the start; update it from actual work, not from this sample:
+BUILD PROGRESS
+● Prepare   ○ Plan & design   ○ Build   ○ Test   ○ Publish   ○ Verify live
+□□□□□□  0 of 6 stages complete
+Now: Reading the selected app's project instructions.
+Done: No stages completed yet.
+Next: Confirm the app structure and design.
+Action needed from you: Show None only if true; otherwise name the exact missing setup or permission.
+
+Use ✓ for completed, ● for active, ○ for queued and ! for needs attention. If you include a bar, fill one of six cells only when that stage is actually complete, and label it as completed stages. Do not invent percentage-complete estimates, countdowns, elapsed-time animations or delivery times. Stages can take different amounts of time. Mark skipped/not-applicable stages explicitly; never count a skipped or blocked check as passed.
+
+Refresh the tracker at every stage transition and meaningful milestone. During longer work, add a brief update roughly every 30–60 seconds when your tools allow communication, stating what just changed, what you are doing and what is next. Do not pause work or run artificial delays to satisfy an update schedule, and do not flood the conversation with unchanged status. If a tool is running without an update channel, explain what it is doing before starting it and report the result as soon as it returns; do not imply you can report while that tool prevents communication.
+
+Use plain language and concrete outcomes, such as “Album search now works” or “Checking the layout on a phone-sized screen,” rather than logs or vague claims. Share a real, clearly labeled in-progress preview or screenshot when available and useful; keep it optional to inspect and continue work without waiting for feedback. Keep tokens, connection secrets and unrelated private context out of trackers, screenshots and progress messages.
+
+After each progress update, continue automatically with the next authorized task. Progress reporting itself must never create a question, confirmation gate, modal dialog or click requirement. Ask only when genuinely blocked by essential missing information or when an action actually requires permission; explain the exact blocker and continue independent safe work. Existing tool permissions, credential handling and publication safeguards still apply. On failure, show the affected stage, what remains intact and what you are doing to recover. Never mark a test, upload or live verification complete before evidence supports it.
+
+
+IF SETUP IS NEEDED: GIVE VISUAL AND WRITTEN DIRECTIONS
+Keep the failed/untested readiness rows visible and explain exactly what is missing. If product, device or operating system is unknown and needed to choose a route, ask one focused question. Do not make me change modes when the current session already passes the required capabilities.
+
+For every needed setup step, pair a short written instruction with a visual: identify where the control is, its current label, what to select, and what I should see afterward. Prefer an authentic current official screenshot/illustration with numbered callouts, or my authorized shared screen/screenshot if available. Link the official source. If you cannot show an actual image, always supply a small labelled breadcrumb or schematic like the examples below; explicitly label it “Schematic — not a screenshot or clickable controls.” Never fabricate a screenshot of my app, claim to see my screen without access, imitate a system permission dialog, or use an outdated control position as a certainty. Ask what I actually see if a control differs.
+
+Claude Desktop route, when the session lacks build tools:
+1. Use https://code.claude.com/docs/en/desktop-quickstart for the current route and official visuals. Help me install/open Claude Desktop and sign in only if needed; I complete account, plan or installation prompts myself.
+2. In the sidebar, choose Code. Under the prompt box, use the environment control and choose the appropriate entry in the Local group. Use the adjacent project-folder control, choose Open folder, and select the intended project directory. If my layout differs, consult the guide rather than guessing.
+3. Paste this whole build prompt into the Code session and send it; carry relevant personalization facts intentionally and keep credentials private. Run this readiness checklist again there.
+Schematic — not a screenshot or clickable controls:
+  Sidebar:       [Chat] [Cowork] [Code ← select]
+  Under prompt:  [Environment: Local]  [Project folder: Open folder]
+  New session:   [Paste full prompt]  [Send]
+
+ChatGPT / Codex route, when the session lacks build tools:
+1. Check https://learn.chatgpt.com/docs/quickstart?setup=app and https://learn.chatgpt.com/docs/app for the current desktop product selector, Chat/Work switch and official visual examples. For code work in the desktop app, open the ChatGPT product dropdown and select Codex; start New chat in the intended project/folder. Where the Work in selector is present, choose This computer for local work; use an already configured Cloud environment only if it supplies the required capabilities. Environment reference: https://learn.chatgpt.com/docs/environments/modes.
+2. ChatGPT Work is another option when its available tools pass the checklist. Select ChatGPT, then Work in the switch above the composer. On web, use the current Chat/Work selector documented in the quickstart. Do not assume every account or device shows identical controls, or that Work alone grants file, command or DAV access.
+3. Paste this entire prompt into the chosen capable session and send it. Carry relevant facts intentionally; run the checklist again before implementation. If an environment is still missing capabilities, explain the specific failed row and use a supported setup path rather than repeating an unverified mode suggestion.
+Schematic — not a screenshot or clickable controls:
+  Desktop product: [ChatGPT ▾] → [Codex] → [New chat / project folder]
+  Local context:   [Work in] → [This computer] → [Intended project]
+  Work alternative:[ChatGPT] → [Chat | Work ← select]
+  New session:     [Paste full prompt] → [Send] → [Rerun readiness]
+
+PRODUCT ROUTER — MATCH THE APP, NOT JUST THE MODEL
+Identify the actual app, device and execution surface separately from the model name. DeepSeek, Qwen, Llama or Gemini inside a capable editor can use that editor's tools; a model's name or reasoning toggle does not provide filesystem, terminal or deployment access. Use the current session if checks pass. Show ONLY the relevant product route to me, not this entire catalog. Check the linked current official guide before stating exact controls: versions, plans, regions and mobile layouts differ. If a label is absent, say so and ask what I see only when essential; never invent a hidden coding mode. Prefer my existing provider/model and configured tools. Do not silently change providers, buy a plan, install software, request new API credentials or bypass permissions.
+
+Google Gemini / Gemini CLI:
+1. In Gemini web, start a chat and use Add files → Canvas where available; enter the prompt. Open Code / console to inspect the generated app. Official visuals: https://support.google.com/gemini/answer/16047321?hl=en .
+2. Test actual capabilities; Canvas preview or sharing is not evidence of repository, terminal or Pagelove access. For missing project tools, use an already installed Gemini CLI in the intended project folder, launch gemini, and paste this full prompt. Follow https://geminicli.com/docs/get-started/ for any needed installation/sign-in, then rerun checks.
+Schematic — not a screenshot or clickable controls: [Gemini] → [Add files: Canvas] → [Code / preview]; project alternative: [Project terminal] → [gemini] → [Full prompt].
+
+Microsoft Copilot / Microsoft 365 Copilot:
+1. Identify consumer Copilot versus Microsoft 365 Copilot; neither product name implies GitHub Copilot tools. Where Microsoft 365's documented control exists, use the composer + → More → Draft page or code, then inspect the result in Pages. Guide: https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-microsoft-365-copilot-pages .
+2. Check real workspace, runtime and publishing tools. If unavailable, retain/export the source and use an existing capable coding environment, such as the separate GitHub Copilot route below if I choose it. Do not claim a Pages artifact is a Pagelove deployment.
+Schematic — not a screenshot or clickable controls: [Copilot Chat] → [+] → [More] → [Draft page or code] → [Check tools / source handoff].
+
+GitHub Copilot in VS Code:
+1. Open the intended project folder in VS Code, open Copilot Chat, and choose Agent in its agent selector where available; paste the prompt. Do not use Ask-only or autocomplete as proof of editing/execution capability.
+2. Follow https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-agent-mode?tool=vscode ; complete any genuine required tool permission, and rerun the checks. Cloud agents need their own verified workspace and network access.
+Schematic — not a screenshot or clickable controls: [VS Code: project folder] → [Copilot Chat] → [Agent] → [Full prompt] → [Readiness].
+
+Cursor:
+1. Use File → Open Folder for this project; open the Agent panel and select Agent rather than Ask when editing/execution is needed. Paste the prompt, then test the tools actually enabled.
+2. Current guide and visuals: https://prod.cursor.com/help/getting-started/first-project and https://prod.cursor.com/help/ai-features/agent . Do not assume terminal or network permissions from the selected mode alone.
+Schematic — not a screenshot or clickable controls: [File: Open Folder] → [Agent panel] → [Mode: Agent] → [Full prompt].
+
+Windsurf / Devin Desktop:
+1. Verify the installed product/version against https://docs.windsurf.com/windsurf/cascade/cascade (currently redirects to Devin's legacy Cascade reference). An older installed Windsurf with Cascade offers Code versus Chat; use Code only if that control actually exists.
+2. Current Devin Desktop documentation says new conversations use Devin Local and Cascade is no longer offered. Use its current documented local-agent setup instead of telling me to select a removed agent; open the intended project, obey workspace trust restrictions, then rerun checks. Do not disable protections to force a pass.
+Schematic — not a screenshot or clickable controls: [Project folder] → [Installed agent selector] → [Current local coding agent / legacy Cascade Code if present] → [Readiness].
+
+Grok:
+1. Where available on Grok web/app, select Build in the mode switcher and paste the prompt; verify its actual tool and export capabilities. Official introduction: https://x.ai/news/grok-build-mode . A native shared preview URL is not Pagelove publishing.
+2. For a complete local project route, use installed Grok Build in the project terminal and launch grok; follow https://docs.x.ai/build/overview for setup/authentication, then paste this prompt and rerun checks.
+Schematic — not a screenshot or clickable controls: [Grok mode: Build] → [Preview / tools]; local alternative: [Project terminal] → [grok] → [Full prompt].
+
+Perplexity:
+1. Use the + menu → Create files and apps if available (formerly Labs); paste the prompt and inspect the created files/app. Official naming reference: https://www.perplexity.ai/changelog/what-we-shipped---february-6th-2026 . Search/Research mode alone is not proof of coding tools.
+2. Test the actual runtime, source/export and network permissions. If it cannot complete the Pagelove workflow, export the available source and a concise handoff to my chosen capable coding environment. Do not substitute Perplexity sharing for deployment.
+Schematic — not a screenshot or clickable controls: [+] → [Create files and apps] → [Inspect files / preview] → [Readiness or source handoff].
+
+DeepSeek:
+1. If already used through a coding editor/agent, follow that app's route and retain DeepSeek. On DeepSeek's chat website, do not call a reasoning or search switch a development environment; run only available checks.
+2. If tools are missing, offer its documented agent integrations using my existing compatible environment. Example official guide: https://api-docs.deepseek.com/quick_start/agent_integrations/codex/ . Explain any new setup/credentials privately before I choose; do not execute remote setup scripts or silently reconfigure my provider. Reopen the project and rerun checks.
+Schematic — not a screenshot or clickable controls: [DeepSeek chat: missing tools] → [Chosen supported coding harness + DeepSeek] → [Project] → [Full prompt].
+
+Qwen / Qwen Code:
+1. If Qwen is already running in an editor, retain it and use that editor's agent route. For a missing tool environment, use the official Qwen Code setup: https://qwenlm.github.io/qwen-code-docs/en/ .
+2. In the intended project terminal, launch the installed qwen agent, complete its supported sign-in/provider setup only when necessary, and paste the full prompt. Do not assume Qwen web chat has identical tools; rerun readiness in the actual environment.
+Schematic — not a screenshot or clickable controls: [Project terminal] → [qwen] → [Full prompt] → [Readiness].
+
+Kimi / Kimi Code:
+1. Distinguish Kimi chat from Kimi Code; a chat model label is not a local workspace. Follow https://www.kimi.com/code/docs/en/kimi-code-cli/guides/getting-started.html for the current supported route.
+2. In the chosen project folder, launch installed Kimi Code with kimi, complete genuine account/tool permissions if needed, paste this prompt and rerun checks. If installation/access is unavailable, use a supported source handoff instead of inventing a website Code toggle.
+Schematic — not a screenshot or clickable controls: [Project terminal] → [kimi] → [Full prompt] → [Readiness].
+
+Mistral Le Chat / Vibe:
+1. Identify the actual Mistral chat/Work or Vibe Code surface using https://docs.mistral.ai/vibe . Check its present controls; do not prescribe retired Chat/Work tabs or infer terminal access from a chat label.
+2. For local project tools, follow https://docs.mistral.ai/getting-started/quickstarts/vibe-code/install-cli ; launch installed vibe from the project terminal, retain the supported configured provider/model, paste the full prompt and rerun checks.
+Schematic — not a screenshot or clickable controls: [Mistral chat: check tools] → [Project terminal: vibe, if needed] → [Full prompt] → [Readiness].
+
+Meta AI / Llama:
+1. Separate Meta AI chat from a Llama model inside a coding agent. If an existing editor supplies tools, use that route without changing my model.
+2. If I want Meta's coding product, use the official Muse Code getting-started links at https://dev.meta.ai/resources/blog/build-with-muse-code ; verify current availability and the documented launch/setup steps before describing them. Do not invent a Muse Code switch inside Meta AI chat or promise access. Otherwise use the local-model route or catch-all.
+Schematic — not a screenshot or clickable controls: [Meta AI chat / Llama model] → [Available supported coding agent] → [Authorized project] → [Readiness].
+
+Local/open models — Ollama / LM Studio:
+1. A model server or ordinary chat window alone does not supply project tools. With Ollama already installed, its documented ollama launch flow lets me choose a supported coding integration and model: https://github.com/ollama/ollama/blob/main/docs/integrations/index.mdx . Use the intended project and verify the chosen agent's tools.
+2. For LM Studio, consult its current integrations guidance; approved MCP tools can supply capabilities, but enable only the specific trusted tools and folder scope needed. Official starting reference: https://lmstudio.ai/blog/lmstudio-v0.3.17 . Do not assume an old Program-tab position still matches my version, or add broad filesystem access automatically.
+Schematic — not a screenshot or clickable controls: [Local model] + [Supported agent / scoped tools] → [Project folder] → [Full prompt] → [Readiness].
+
+ANY OTHER LLM, APP OR FUTURE VERSION — CATCH-ALL
+This includes other chat products, custom assistants, and app builders such as Replit, Bolt, Lovable or v0. First identify the app, device, underlying model and available tools without guessing. Run the same six checks, marking unavailable, waiting and N/A honestly. If core tools pass, stay where I am. Otherwise consult that product's current official coding/workspace guide and give numbered steps with the exact observed/documented controls plus an authentic visual or clearly labelled schematic: [Current app] → [Supported coding/workspace mode] → [Authorized project] → [Full prompt] → [Rerun checks]. If no supported tool-capable mode exists, say which capability is missing and provide exportable source plus a concise handoff to my chosen supported environment; no invented buttons or claim of deployment. Native preview/Publish/Share is not proof of a Pagelove deployment: verify the specified Pagelove URL separately. Never paste the API token into a public share, image, source repo or diagnostic. Preserve project requirements and only intentionally transferred personal context; memories and local files do not automatically cross apps. Do not switch models/providers unnecessarily or suggest third-party login services for the generated app.
+
+Show the short relevant route together; do not require Next, Done or approval after every instructional line. Actual mode/folder changes or required permission prompts may need my action, but the checklist and progress display themselves must not demand acknowledgement clicks. Once the necessary action is complete, rerun affected checks and continue automatically; preserve existing privacy and permission safeguards. These instructions guide the receiving AI; never guarantee that every model supports tools or obeys a prompt.
+
+
+SELECTED ITEM SOURCE CODE
+GitHub repository for Photo Album: https://github.com/pagelove/photo-album-template Identity and sharing: read branding/README.md and https://github.com/pagelove/design-system/blob/main/docs/identity-and-sharing.md. Set branding/site.json.url to the supplied target site and deployment prefix, then regenerate the favicon, OG assets and metadata after applying the final design and identity. Never edit generated exports as the content source.
+Selected template design: invitation / dark. Read https://github.com/pagelove/design-system/blob/main/designs/invitation/.stitch/dark.DESIGN.md and preserve the complete design unless Personalize supplies an explicit relevant preference. This album-first library has named albums, covers, local uploads, album search, bulk photo organization, a responsive grid and keyboard/swipe viewer. It protects unfinished forms and checks staged upload capacity before committing. The working DOM and saved semantic HTML document are authoritative. Device-local saving, conflicts and HTML backups are implemented; shared-account synchronization is a separate supported integration. Read REVIEW.md, docs/architecture.md and docs/testing.md. Test primarily on the supplied Pagelove instance. Preserve existing records and device libraries; never embed the authoring API token in the browser.
+Read its README, license and project instructions, inspect its structure, and use this code as the starting point. Preserve required license notices; follow its actual build commands. Adapt its configuration and persistence to the target Pagelove site rather than overwriting unrelated site content.
+
+PERSONALIZATION
+PERSONALIZE IS ON: Populate this Photo Album with relevant information already available to you in this receiving AI's conversation context, enabled memories, or user-provided materials. Perform the personalization in the actual app fields, branding and seed content; do not merely repeat these instructions or leave generic placeholders where you know the real details. This Pagelove page cannot itself read an LLM's memory. Do not claim access to memories, files or another chat that your current environment cannot access. If context was lost during the mode handoff, help me intentionally carry the relevant facts into this session.
+
+PERSONALIZATION TAKES PRECEDENCE
+With Personalize enabled, my relevant, reliably known preferences override conflicting defaults anywhere in this build prompt, the linked design guide, the selected template/repository, sample content and preview. This includes my preferred color palette, light/dark theme, design system or component library, typography, spacing, button shapes, layout, imagery, tone, language, units, workflow and useful feature choices. Treat the preview and template as starting points, not requirements to copy unchanged. For example, if the template uses one palette but you know I prefer another, apply my preferred palette consistently across the delivered app; if I already use a design system, use its actual components/tokens instead of imposing the generic guide.
+Priority: my explicit instructions for this task first, then relevant confirmed preferences from available context, then these prompt/template defaults only for gaps. Do not let a generic section later in this prompt silently undo personalization. Prefer current instructions over older memories; if two preferences conflict or it is unclear which personal/business brand applies, ask one focused clarification. Identify the overrides in the proposed fact-to-field/design mapping, apply them to the actual implementation, and summarize them at handoff. Do not invent a preference. Personalization does not change the target site/credentials, supported Pagelove behavior, factual accuracy or required privacy/security controls.
+
+CONTEXT TO CONTENT WORKFLOW
+1. Find facts relevant to Photo Album, rather than using every fact you know about me. Prefer my recent explicit statements; flag contradictions and uncertain or outdated details. Do not infer sensitive information or invent facts, dates, people, results or transactions.
+2. Identify my relevant personal identity, project, community or business from context. Use my actual business name when this item is for that business, while keeping unrelated work and personal contexts separate.
+3. Before building, show a concise proposed fact-to-field mapping: the known fact, its intended field/content, its source (conversation/memory/material, without quoting unrelated private context), and any uncertainty. Ask a focused bundled question for essential missing or ambiguous details. If no reliable context exists, say so and gather the minimum information; leave optional unknown fields empty.
+4. Use the item-specific details below to prefill useful content and editable settings, not just the heading. Separate real user content from any clearly labeled fictional examples. Keep private seed content private and confirm the intended audience before publishing personal or non-public business information on a publicly readable site.
+
+ITEM-SPECIFIC PERSONALIZATION: Photo Album
+Organize photos I have actually supplied or made available into albums based on known occasions, projects or subjects, with factual captions and dates only where known. Use my known personal or business identity and visual preferences when relevant. Ask for image files/access if unavailable; do not invent images, people, locations or dates, or pretend you can retrieve an image from a textual memory.
+
+At handoff, summarize which real details you populated and which fields still need my input. Never claim data was personalized unless those values are present in the delivered app.
+
+PAGELOVE CONNECTION
+Site hostname: TARGET.onpagelove.com
+Public site: https://TARGET.onpagelove.com/
+WebDAV hostname: dav-TARGET.onpagelove.com
+WebDAV base URL: https://dav-TARGET.onpagelove.com/
+Account API token: [PRIVATE_API_TOKEN]
+If the hostname is still your-project.onpagelove.com, the token is a placeholder, or the token starts with DEMO_API_TOKEN_, ask me privately for the real connection details before uploading. Demo tokens grant no access and example sites are not provisioned. Use the token only for authenticated requests to this WebDAV host; keep it out of source files, browser JavaScript, URLs, Git, logs and screenshots. Do not echo it in your response.
+
+READ THE DOCUMENTATION FIRST
+1. Pagelove overview: https://docs.pagelove.com/
+2. First app guide: https://docs.pagelove.com/learn/your-first-app/
+3. Reading and writing documents: https://docs.pagelove.com/reference/reading-and-writing/
+4. Reference documentation: https://docs.pagelove.com/reference/
+5. Document-first development guide (edition 2.4): https://kayak-draw-9549.onpagelove.com/onboarding/after/build-guides.html#documentation-first
+6. Design guide: https://kayak-draw-9549.onpagelove.com/onboarding/after/build-guides.html#design-guide
+   Pagelove design-system source: https://github.com/pagelove/design-system (read its project instructions, foundations, components and applicable app/game guidance).
+Read these before choosing the data model or writing implementation code. Follow the current official documentation rather than assumptions from other platforms.
+
+DOCUMENT-FIRST DEVELOPMENT — EDITION 2.4
+Read the full Document-first Development edition 2.4 guide linked from the build guide, and the selected repository’s DOCUMENT-FIRST-REVIEW.md before choosing a model or writing code. Apply W1–W8 and applicable R01–R12/A1–A6 profiles. Prefer semantic HTML for document-based domain information and the live DOM as its editable working model; do not maintain a parallel editable JSON copy. Record a concrete justification for specialized geometry, simulation, binary or external-authority representations and preserve traceable conversions. Define stable IDs, format/behavior/content versions, resource ownership, bounded aggregates and supported operations. Distinguish source, draft, frozen pending command, confirmed save and derived output. Preserve current control values and local work on rejected, stale or uncertain saves; reconcile outcomes before retrying. Use supported strong conditional writes and protect user-managed records during installation and updates. Establish actual authorization/validation on each read/write path with valid and negative controls; client checks and declarations are not proof of enforcement. Owner WebDAV is trusted authoring and bypasses schema validation and triggers, so validate authored documents before upload and do not treat DAV as an application validation boundary. Use only the supplied Pagelove connection; do not introduce an outside identity/provider service. Preserve game-specific approved trust boundaries. Verify serialization/round trips, invalid/future data, concurrency/retries, interrupted storage and affected browser/keyboard/mobile tasks. Record plans, meaningful changes, evidence and explicit live/privacy/device gaps; do not claim pending checks as passes.
+
+DESIGN
+Apply PERSONALIZATION TAKES PRECEDENCE above: use my known preferred design system, colors, typography, component styles and relevant brand identity even when they conflict with this prompt, the template or linked guide. Use the linked guide only for unspecified choices. Keep the result readable, responsive and usable with keyboard/touch controls and visible focus. Do not impose Pagelove prototype styling on my app when my preferences differ.
+
+BUILD AND SAVE TO PAGELOVE
+Prepare the app files locally, with index.html as the entry point and clear relative links to assets. Read the existing DAV directory first. Preserve existing files and ask before replacing unrelated content. Upload only the intended files using the authenticated WebDAV methods documented by Pagelove; use version/ETag conditions when updating existing files. Keep connection credentials in private runtime variables, never in published app files. Save and verify any schema/data documents separately from UI assets. A browser with only a static public page must not embed the owner token to perform privileged writes.
+
+For a repository that provides scripts/deploy.mjs, read docs/deployment.md and use its actual prepared site/ payload. Run the repository's check/test commands and node --test tests/deployment.test.mjs. If it is Mahjong, run node tools/prepare-template.mjs after adapting game source; otherwise follow its documented build/prepare command. Run node scripts/deploy.mjs --prepare, then node scripts/deploy.mjs --host TARGET.onpagelove.com. Supply the API token through its private terminal prompt or the coding environment's private credential mechanism; never include the token in command arguments, shell history, source files or output. Finally run node scripts/deploy.mjs --host TARGET.onpagelove.com --verify and open the public site. Review any existing different code before deliberately using --update; retain owner-edited records and unrelated files. Other selected repositories may use different commands: follow their own instructions rather than inventing this script.
+This build/deploy step uses the supplied owner's WebDAV authoring credential and does not require the hosted app to reuse a Pagelove console session. Browser-based private editing and protected data still require their own supported native access rules; do not claim that deployment has enabled them. Do not block a public page or local game deployment on that separate integration, and never expose private sample content to make a deployment test pass.
+
+VERIFY AND HAND OFF
+Validate the app and documents before upload. Read uploaded files back, open https://TARGET.onpagelove.com/, and check the important flows, persistence where applicable, keyboard/touch behavior and mobile layout. Finish by updating the visual tracker with the actual final status of all six stages; show incomplete or blocked stages honestly. Report the public link, files changed, completed checks and any remaining limitations. Do not claim features are working unless you verified them.
+
+FINAL LINKS — MAKE THE NEXT STEPS EASY
+End your handoff with two prominent, clickable Markdown links:
+1. Open your live site — use https://TARGET.onpagelove.com/ when that is the verified deployment address, or the actual verified URL including its deployment subdirectory. Show the real address and a brief sentence about what is ready. Only label it live/ready after deployment and public verification succeed. If the connection is still a placeholder or deployment/verification is incomplete, clearly report that status instead of presenting a pretend working site.
+2. Return to your Pagelove dashboard — [Open Pagelove dashboard](https://console.pagelove.com/console/). Explain: sign in with the same Pagelove account if prompted, open the sites list (use the current interface's actual Sites/Hosts label), then choose the site whose hostname is TARGET.onpagelove.com. Include that hostname so I can identify the correct site. Use a site-specific dashboard link only if it was actually supplied or verified; never invent an account ID, site ID or dashboard deep link.
+These links are optional next steps after the work; do not require me to click either to finish the build or its progress reporting. Do not put credentials in either URL or in the handoff.

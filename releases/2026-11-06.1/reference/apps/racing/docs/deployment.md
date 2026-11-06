@@ -1,0 +1,13 @@
+# Build and deploy Racing
+
+This template is the Scrap League adaptation. Use Node22+ and pinned Bun dependencies. Run bun install --ignore-scripts, node scripts/deploy.mjs --prepare (validates HTML content and rebuilds site/), then node --test tests/*.test.mjs. The source build never runs author-content utilities. Preview with node tools/serve.mjs at http://127.0.0.1:4391/ (PORT can select a fresh origin to avoid an older installed worker).
+
+Slide4 supplies this repo, the public site hostname and a private API token. Run node scripts/deploy.mjs --host YOUR-SITE.onpagelove.com; paste the token at the echo-disabled terminal prompt or provision PAGELOVE_API_TOKEN privately. Never put it in command arguments, source, browser JS, URLs or logs. Site provisioning belongs to Pagelove, not this publisher.
+
+Use --path /isolated-directory/ for a separate installation on an authorized test site. Use --verify for read-only remote verification and --update only after reviewing existing differing game code. The target is validated as an exact native public/DAV hostname pair; redirects are refused. No fixed upstream host is contacted. Only the configured owner authoring origin receives the credential.
+
+The release publisher inventories the target, retains private ignored baseline backups, uses create-only writes for missing files and ETag conditions for existing files, refuses different immutable assets and rechecks revision before a write. Lost write responses are reconciled by readback rather than blindly repeated. Immutable dependencies and authored source are staged and publicly verified before index promotion. The served root HTML may be serialized and receive Pagelove branding; only the exact known footer/semantic identity is accepted. Its actual bytes are then pinned in the hosted offline inventory and worker, followed by public readback. This is sequential promotion, not a multi-file atomic transaction.
+
+Only the current immutable release plus official content are uploaded. Existing Workshop tracks/catalogs, scores/boards, unrelated resources and old hosted releases are preserved. Do not treat an official source release as a Workshop edit. Source and operational rules are in docs/installation-contract.md and ARCHITECTURE.md. A sanitized receipt is saved at ignored .local/deployment-receipt.json; private backups under .local/deployment-baselines/ are never committed.
+
+Deployment is trusted owner WebDAV authoring, independent of console-to-app browser sessions. Garage, progress, bests, ghosts and Workshop drafts work locally. Shared online boards and remote Workshop publishing remain separate, disconnected capabilities. No server-side validation, private authorization or competitive-score proof is inferred from an upload.

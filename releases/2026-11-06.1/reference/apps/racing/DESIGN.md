@@ -1,0 +1,3 @@
+# Scrap League Racing template
+
+Preserve Scrap League's elevated3D scrapyard art, meaningful track previews, car assembly, race HUD and Workshop. Apply pagelove/design-system at0ca2336353647b8d2d726470046617163bbf6d67 to semantic menu/control colors, neutral borders, pill action buttons and focus. Functional race/terrain/boost colors remain game information. Preserve readable cinematic backing, reduced motion, gesture cancellation and44px controls. No decorative northeast arrows or colored card rails. Canvas presentation is a specialized A6 runtime; semantic menus, status and numeric Workshop controls remain DOM. Desktop/mobile browser acceptance is recorded separately from physical-device certification.
