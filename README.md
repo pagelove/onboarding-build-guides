@@ -18,19 +18,6 @@ The published review UI is https://kayak-draw-9549.onpagelove.com/onboarding/04-
 
 ## Maintenance
 
-Before preparing a new release, use the versioned
-[delivery process](maintenance/delivery-process/2026-11-16.1/PROCESS.md). Inventory source fixes and
-known issues since each pinned commit, declare whether each app is visual-only,
-device-local, shared-public or protected, and verify relocated host routes and
-real save behavior for the promised variant. Pin governing guide revisions and
-review differences in older snapshots. Current hashes prove integrity, not that
-an old bundle contains later live repairs. Record which existing ZIP recipients
-need an upgrade and publish compatible migration notes. Do not rewrite
-`releases/2026-11-06.1/`; a corrected source bundle requires a new immutable release
-and the existing full acceptance requirements below. This maintenance edit does
-not publish that new release or claim upstream fixes are already integrated.
-The supplement is included in this repository with [file checksums](maintenance/delivery-process/2026-11-16.1/MANIFEST.json). Keep this version immutable; create a new supplement version for later changes. It is maintenance guidance, not a new app-guide release or proof of application acceptance.
-
 Read the plan and migration entry in audit/CHANGELOG.md before changes. Record UTC, actor, request, rationale, affected files, tests, hashes and pending limitations for meaningful batches. Refresh exact upstream refs and snapshots deliberately, review conflicts (especially assigned app modes), change the release identifier, rebuild/test and publish. Generate UI release metadata from that exact public commit and copy the matching download files before switching the UI. Keep old release assets for existing prompts. No automatic mutable-main fallback.
 
 Setup routes are current referenced official documentation with version/account caveats, never assumed account capabilities. They are loaded only when tools are missing and cover major providers plus a catch-all. The offline bundle contains those sections for recovery; show only the relevant route to the user. No new outside sign-in service is introduced for the app.
