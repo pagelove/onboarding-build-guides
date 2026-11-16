@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-16T11:32:30.634Z",
+  "originalCommit": "3793efd217c490d155dde51a8285341e8288af0b",
+  "rollbackMerge": "0193136c9d064701952b49577fd450573c65e6d9",
+  "intendedState": "open PR only; no auto-merge",
+  "appGuideTreesUnchanged": true,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "93b5b605b7849743505720427b5a0b829ab84fed7ed23ef7489e42b9bb47fa17"
+    },
+    {
+      "path": "maintenance/delivery-process/2026-11-16.1/CHECKS.md",
+      "sha256": "be57570ca7ec7c07fa1dd3d0d019d4823dcd29e72cc8d30119a6f8f4eb81b833"
+    },
+    {
+      "path": "maintenance/delivery-process/2026-11-16.1/DESIGN-HANDOFF.md",
+      "sha256": "2c2d0af57f7c9fe98e4fc6c6a66f367e69d1f5d2dc3769f0eb0f7426ff4f02e4"
+    },
+    {
+      "path": "maintenance/delivery-process/2026-11-16.1/MANIFEST.json",
+      "sha256": "1516f774aa63302c1a34de372bf86ff34cfb84265c7e3c4d1e7567c4daed55fe"
+    },
+    {
+      "path": "maintenance/delivery-process/2026-11-16.1/PROCESS.md",
+      "sha256": "40fffd5dbd3aabc43000803970c40effb6f166c38a7460d294e979115fe62f82"
+    },
+    {
+      "path": "maintenance/delivery-process/2026-11-16.1/RELEASE-RECORD.template.json",
+      "sha256": "6d67071fbd44e19a0898bd1359a6b37c0dbc302a7e53ef1379f287bb9e2d0de9"
+    }
+  ]
+}

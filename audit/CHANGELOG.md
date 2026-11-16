@@ -43,3 +43,7 @@ User requested reverting PR1 and retaining the proposal as an unmerged PR. Histo
 
 ## PROCESS-PROPOSAL-PLAN-20261116 — 2026-11-16T11:32:29.198Z — Codex
 User requested the PR1 changes remain only as a proposal. Rollback PR2 is merged at0193136c9d064701952b49577fd450573c65e6d9 with successful checks. Plan: on this separate branch, restore only README and five supplement files exactly from original reviewed commit3793efd; preserve both earlier publication and reversal audit history. Validate hashes/links and unchanged app-guide trees, open a new PR against main and leave it OPEN with auto-merge disabled. No authorization to merge this replacement PR.
+
+
+## PROCESS-PROPOSAL-VERIFIED-20261116 — 2026-11-16T11:32:30.634Z — Codex
+All six proposal files exactly match original reviewed commit3793efd; all four supplement hashes and README links pass. App-guide releases/source/tools/client unchanged. Hash evidence is in PROCESS-PROPOSAL-20261116.json. This branch is for an open PR only; main retains the rollback. GitHub checks pending; no app deployment or new guide release.
