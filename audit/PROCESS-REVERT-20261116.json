@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-16T11:29:56.893Z",
+  "mergeReverted": "b008f9fde3456df20c2bd3e41e8a929d83450035",
+  "preMergeParent": "e79012dda5ab120faf31f84cda8cd740c06268b1",
+  "readmeSha256": "2eadea6b71b967ff75123c2bd50d32cf13e2d207076404142aca87644dc1404f",
+  "readmeEqualsPreMerge": true,
+  "removedSupplementFiles": [
+    "CHECKS.md",
+    "DESIGN-HANDOFF.md",
+    "MANIFEST.json",
+    "PROCESS.md",
+    "RELEASE-RECORD.template.json"
+  ],
+  "appGuideTreesUnchanged": true,
+  "auditHistoryPreserved": true,
+  "status": "Locally verified; GitHub CI and rollback merge pending"
+}
