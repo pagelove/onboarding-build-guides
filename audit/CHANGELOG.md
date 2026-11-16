@@ -39,3 +39,7 @@ All four supplement hashes and README relative links resolve; scoped whitespace 
 
 ## PROCESS-ROLLBACK-20261116 — 2026-11-16T11:29:56.893Z — Codex
 User requested reverting PR1 and retaining the proposal as an unmerged PR. Historical entries above remain true records of the earlier publication and do not assert the supplement is still adopted. README and supplement rollback verified; plan, scope, hashes and pending provider checks are recorded in PROCESS-REVERT-20261116.md and its JSON receipt. No frozen app release changed.
+
+
+## PROCESS-PROPOSAL-PLAN-20261116 — 2026-11-16T11:32:29.198Z — Codex
+User requested the PR1 changes remain only as a proposal. Rollback PR2 is merged at0193136c9d064701952b49577fd450573c65e6d9 with successful checks. Plan: on this separate branch, restore only README and five supplement files exactly from original reviewed commit3793efd; preserve both earlier publication and reversal audit history. Validate hashes/links and unchanged app-guide trees, open a new PR against main and leave it OPEN with auto-merge disabled. No authorization to merge this replacement PR.
